@@ -1,6 +1,6 @@
 # Skill: Hebrew phone call – CORE
 
-Rules for every outbound Hebrew phone call made by an AI voice agent. Combine with one file from `specializations/` when relevant.
+Rules for every outbound Hebrew phone call made by an AI voice agent. Pick a mode (`modes/scripted.md` or `modes/unscripted.md`) and add one file from `specializations/`.
 
 ## Core rules
 
@@ -29,5 +29,7 @@ callee_gender:     female | male | unknown
 objective:         ...
 lines:             [ "...", "..." ]   # full niqqud
 closing:           "..."
+mode:              scripted | unscripted
 specialization:    none | prank | hmo_appointment | ...
+required_info:     { ... }        # the specialization's checklist, filled
 ```

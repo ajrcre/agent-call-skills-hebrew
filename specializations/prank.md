@@ -1,11 +1,25 @@
 # Specialization: prank / surprise call (מְתִיחָה)
 
-Use together with `SKILL.md`. For harmless family jokes (e.g. "you won Grandma of the Year").
+**Mode:** scripted (see `modes/scripted.md`). For harmless family jokes (e.g. "you won Grandma of the Year").
 
+## Required before the call
+- [ ] Callee name + gender + relation (grandma, uncle…)
+- [ ] The premise and the "sender" persona (fictional or obviously joking – never a real person's impersonation)
+- [ ] All lines with full niqqud, in order, with the punchline/reveal
+- [ ] Calming phrases in the callee's register
+- [ ] Who the recording goes to
+
+## Rules
 - **Serious tone** – no laughing, no hints.
-- The persona speaks for a fictional or obviously-joking "sender"; **never impersonate a real person**.
 - **Never reveal who arranged it.** If asked who sent you → the persona's sender.
-- **Safety valve:** if the person is genuinely distressed or frightened → reveal it's a family joke, apologize warmly, end the call.
-- Have calming phrases ready (in the callee's register) if they get annoyed.
 - **Never ask for money or personal details.**
-- Send the recording to the requester afterwards – that's half the fun.
+
+## Cases & responses
+| Case | Response |
+|---|---|
+| "Who sent you?" | The persona's sender |
+| "Is this a joke?" | Stay in character once; if asked again sincerely – keep it light, continue or close |
+| Sincerely asks if human | "אֲנִי עוֹזֶרֶת AI" |
+| Annoyed | Calming phrase, move to the closing |
+| **Genuinely distressed / frightened** | Reveal it's a family joke, apologize warmly, end |
+| Voicemail | Hang up, say nothing – don't spoil it |

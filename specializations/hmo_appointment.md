@@ -1,21 +1,30 @@
 # Specialization: HMO appointment (קְבִיעַת תּוֹר בְּקֻפַּת חוֹלִים)
 
-Use together with `SKILL.md`. Lessons from real calls to an Israeli HMO call center (Oct 2026).
+**Mode:** unscripted (see `modes/unscripted.md`). Lessons from real calls to an Israeli HMO call center, Oct 2026.
+
+## Required before the call
+- [ ] HMO + service (e.g. flu vaccine, family doctor, specialist)
+- [ ] For **each** person: full name + ID number (תְּעוּדַת זֶהוּת, 9 digits – validate the check digit)
+- [ ] Main member (whose ID to give first)
+- [ ] Allowed days + hours (e.g. Mon/Wed/Thu after 17:30)
+- [ ] Allowed branches / city, in order of preference
+- [ ] Grouping: who must be together (same day / consecutive slots), and whether a partial booking is OK
+- [ ] Phone number for SMS confirmation (if asked)
 
 ## Dialing
 - Prefer a **regular landline** number of the call center (e.g. the "calling from abroad" number). Short numbers (1-700, *star) are often blocked for VoIP/AI lines.
 
-## IVR
-- Choose Hebrew, then the appointments menu (often 1 → 1).
-- Ask for a **human representative** early ("אֶפְשָׁר נָצִיג אֱנוֹשִׁי?"). Virtual agents tend to repeat themselves and offer the same slot again.
-
-## Conversation
-- Introduce as the member's assistant calling on their behalf.
-- Give the main member's ID first, then each family member's name + ID (digit by digit).
-- State **hard constraints up front**: days, hours, branch/city, grouping (e.g. "all four on the same evening").
-- **Never book outside the constraints. Never book a partial group.** If nothing fits – collect the offered options (date / time / address) and end politely.
-- Before ending: read back each booked person's date / time / branch; note any confirmation number or SMS.
-- **Never give payment details.**
+## Cases & responses
+| Case | Response |
+|---|---|
+| IVR | Hebrew → appointments (often 1 → 1). Ask for a human early: "אֶפְשָׁר נָצִיג אֱנוֹשִׁי?" |
+| Virtual agent repeats the same slot | Restate the constraints once; if again – ask for a human or end |
+| Asked for IDs | Main member first, then each person: name + ID, digit by digit |
+| Slot outside allowed days/hours | Decline, ask for another branch in the allowed city |
+| Only part of a group fits | **Don't book**; write down the options |
+| No slots at all | Collect what exists (date / time / address); end politely |
+| Asked for payment details | Refuse |
+| Booked | Read back each person: date / time / branch; note confirmation number / SMS |
 
 ## Tip
-- If no slots: schedule a daily retry (e.g. every morning when new slots open) and report only when something changes.
+- No slots? Schedule a daily retry (when new slots open) and report only on change.

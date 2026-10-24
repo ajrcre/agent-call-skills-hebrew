@@ -1,7 +1,8 @@
 # Adding a specialization
 
-1. Create `specializations/<name>.md`.
-2. Start with: what kind of call it's for, and that it's used together with `SKILL.md`.
-3. Write the specific rules + **lessons learned with a date** (what happened on a real call).
-4. Add a row to the table in `README.md`.
-5. Keep every pre-written Hebrew line with full niqqud.
+1. Create `specializations/<name>.md` – **one file per specialization**.
+2. Header: what the call is for + **Mode:** scripted or unscripted.
+3. **Required before the call** – a checklist of every fact the agent will need.
+4. **Cases & responses** – a table of expected situations and what to do in each.
+5. Lessons learned from real calls, with a date.
+6. Add a row to the table in `README.md`. Every pre-written Hebrew line with full niqqud.
